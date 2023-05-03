@@ -1,9 +1,15 @@
 package com.example.foodapp.Activity.Domain;
 
+import com.google.gson.annotations.SerializedName;
+
 public class PopularDomain {
+    @SerializedName("title")
     public String title;
+    @SerializedName("description")
     public String descp;
+    @SerializedName("pic")
     public String pic;
+    @SerializedName("fees")
     public Double fees;
     public int itemincart;
 
